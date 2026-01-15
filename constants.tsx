@@ -7,7 +7,8 @@ export const HERO_CONTENT = {
   headline: "Do You Want to Scale Your Business?",
   subheadline: "We help businesses scale giving a 5X return on investment. We have worked with 30+ businesses across multi-continents, showing a proven system that guarantees results within a period of time.",
   cta: "Scale Now",
-  socialProof: "Trusted by 30+ businesses globally to drive exponential growth."
+  socialProof: "Trusted by 30+ businesses globally.",
+  calendly: "https://calendly.com/darylopiyo7603/new-meeting"
 };
 
 export const PROBLEM_SECTION = {

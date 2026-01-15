@@ -25,7 +25,9 @@ const Navbar: React.FC = () => (
         <a href="#faq" className="hover:text-indigo-600 transition">FAQ</a>
       </div>
       <a 
-        href="#contact" 
+        href={HERO_CONTENT.calendly}
+        target="_blank"
+        rel="noopener noreferrer"
         className="bg-indigo-600 text-white px-5 py-2.5 rounded-full text-sm font-bold hover:bg-indigo-700 transition shadow-lg shadow-indigo-200"
       >
         Start Winning
@@ -47,7 +49,9 @@ const Hero: React.FC = () => (
         </p>
         <div className="flex flex-col sm:flex-row gap-4 mb-8">
           <a 
-            href="#contact"
+            href={HERO_CONTENT.calendly}
+            target="_blank"
+            rel="noopener noreferrer"
             className="inline-block text-center bg-indigo-600 text-white px-10 py-4 rounded-xl text-xl font-bold hover:bg-indigo-700 transition shadow-xl shadow-indigo-200 scale-105 active:scale-100"
           >
             {HERO_CONTENT.cta}
@@ -91,12 +95,12 @@ const Problem: React.FC = () => (
 const Mentor: React.FC = () => (
   <section id="mentor" className="py-24 px-4 bg-white scroll-mt-20">
     <div className="max-w-7xl mx-auto grid lg:grid-cols-2 gap-16 items-center">
-      <div className="relative">
-        <div className="absolute -inset-4 bg-indigo-600/10 rounded-3xl blur-3xl"></div>
+      <div className="relative group">
+        <div className="absolute -inset-4 bg-indigo-600/20 rounded-3xl blur-2xl group-hover:bg-indigo-600/30 transition duration-500"></div>
         <div className="relative aspect-[4/5] overflow-hidden rounded-3xl shadow-2xl border-4 border-white">
           <img 
             src="input_file_0.png" 
-            className="w-full h-full object-cover object-top" 
+            className="w-full h-full object-cover object-top hover:scale-105 transition duration-700" 
             alt="Darryl Alloo - Alloo Consulting" 
           />
         </div>
@@ -175,10 +179,12 @@ const Portfolio: React.FC = () => (
                 ))}
               </div>
               <a 
-                href={project.link} 
+                href={HERO_CONTENT.calendly} 
+                target="_blank"
+                rel="noopener noreferrer"
                 className="text-indigo-600 font-bold flex items-center gap-2 hover:gap-4 transition-all"
               >
-                View Case Study <span>→</span>
+                Schedule Analysis <span>→</span>
               </a>
             </div>
           </div>
@@ -230,10 +236,12 @@ const Process: React.FC = () => (
         ))}
       </div>
       <a 
-        href="#contact"
+        href={HERO_CONTENT.calendly}
+        target="_blank"
+        rel="noopener noreferrer"
         className="inline-block mt-16 bg-white text-indigo-600 px-10 py-4 rounded-xl text-xl font-bold hover:bg-slate-100 transition shadow-xl"
       >
-        Scale Now
+        {HERO_CONTENT.cta}
       </a>
     </div>
   </section>
@@ -299,9 +307,14 @@ const FinalCTA: React.FC = () => (
       <p className="text-xl text-slate-400 mb-12">
         Book your free 30-minute technical audit. No pressure, just actionable value.
       </p>
-      <button className="bg-indigo-600 text-white px-12 py-6 rounded-2xl text-2xl font-black hover:bg-indigo-700 transition shadow-2xl shadow-indigo-500/50 scale-105 active:scale-100">
+      <a 
+        href={HERO_CONTENT.calendly}
+        target="_blank"
+        rel="noopener noreferrer"
+        className="inline-block bg-indigo-600 text-white px-12 py-6 rounded-2xl text-2xl font-black hover:bg-indigo-700 transition shadow-2xl shadow-indigo-500/50 scale-105 active:scale-100"
+      >
         Start Winning Now
-      </button>
+      </a>
     </div>
   </section>
 );
