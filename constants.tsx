@@ -29,31 +29,31 @@ export const MENTOR_CONTENT = {
 
 export const PROJECTS: Project[] = [
   {
-    title: "EcoStream Global",
-    category: "Corporate Website",
-    description: "Built a high-conversion website for a regional logistics giant, replacing a legacy system.",
-    result: "Increased lead generation by 45% within the first two months.",
-    image: "https://images.unsplash.com/photo-1586528116311-ad8dd3c8310d?auto=format&fit=crop&q=80&w=800",
-    tags: ["React", "Performance", "SEO", "ROI"],
-    link: "#"
+    title: "Urban Renewed Limited",
+    category: "Real Estate Development",
+    description: "Transformed a real estate development company's digital presence with a modern, high-performance website. Urban Renewed Limited specializes in development consulting and construction with over 15 years of experience.",
+    result: "Increased project inquiries and client engagement through optimized web presence and lead generation system.",
+    image: "/urban_renewed_thumb.webp",
+    tags: ["Real Estate", "Lead Generation", "Performance"],
+    link: "https://www.urbanrenewed.co.ke/"
   },
   {
-    title: "FinPulse Analytics",
-    category: "Conversion Engine",
-    description: "Developed a high-frequency data visualization dashboard for financial consulting.",
-    result: "5X ROI achieved through automated client onboarding.",
-    image: "https://images.unsplash.com/photo-1551288049-bbdac8a28a1e?auto=format&fit=crop&q=80&w=800",
-    tags: ["Next.js", "Growth", "Analytics"],
-    link: "#"
+    title: "One2Gration",
+    category: "Community Platform",
+    description: "Built a comprehensive platform for One2Gration that integrates business services, media solutions, and community support. The platform features the Business Amplifier, O2GTV media ecosystem, and Respocial community features.",
+    result: "Unified platform enabling entrepreneurs and creatives to elevate their businesses and amplify their voices with integrated marketing and automation tools.",
+    image: "/one2gration_thumb.webp",
+    tags: ["Community", "Automation", "Media", "Growth"],
+    link: "https://one2gration.com/"
   },
   {
-    title: "HealthBridge Portal",
-    category: "Service Platform",
-    description: "A secure patient management system designed for global scaling.",
-    result: "Scaled to 3 different continents with 100% uptime.",
-    image: "https://images.unsplash.com/photo-1576091160550-2173dba999ef?auto=format&fit=crop&q=80&w=800",
-    tags: ["Security", "Scaling", "Global"],
-    link: "#"
+    title: "The Odor Doctors",
+    category: "Service Business",
+    description: "Developed a professional website for The Odor Doctors, a global expert in car odor removal and vehicle sanitization services. The site showcases their advanced technology and comprehensive cleaning process.",
+    result: "Streamlined booking system and service presentation leading to increased appointment conversions and dealer partnerships.",
+    image: "/the_odor_doctors_thumb.webp",
+    tags: ["Service Business", "Booking System", "Conversions"],
+    link: "https://www.theodordoctors.com/"
   }
 ];
 
