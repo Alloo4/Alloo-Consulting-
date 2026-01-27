@@ -99,7 +99,7 @@ const Mentor: React.FC = () => (
         <div className="absolute -inset-4 bg-indigo-600/20 rounded-3xl blur-2xl group-hover:bg-indigo-600/30 transition duration-500"></div>
         <div className="relative aspect-[4/5] overflow-hidden rounded-3xl shadow-2xl border-4 border-white">
           <img 
-            src="/input_file_0.png" 
+            src="/DarylAiPhoto.png" 
             className="w-full h-full object-cover object-top hover:scale-105 transition duration-700" 
             alt="Darryl Alloo - Alloo Consulting" 
           />
